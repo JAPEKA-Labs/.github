@@ -1,7 +1,7 @@
 # JAPEKA
 
 
-## Positions - Technologies product owner
+## Positions
 
 ### 1. **Full Stack Developer**
 
