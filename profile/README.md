@@ -7,7 +7,6 @@
 
   - Develop and maintain the front-end and back-end of applications.
   - Collaborate with designers to ensure user-friendly and responsive interfaces.
-  - Implement APIs and ensure seamless communication between front-end and back-end systems.
   - Write clean, maintainable, and well-documented code.
 
 
