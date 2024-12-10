@@ -27,7 +27,7 @@
 ### 4. **QA Engineer**
 
   - Develop and execute test plans and cases.
-  - Perform manual and automated testing of applications.
+  - Perform unit, integration, and end-to-end tests of applications.
   - Identify and document bugs, and verify fixes.
 
 
