@@ -14,8 +14,6 @@
 ### 2. **Blockchain Developer**
 
   - Design and develop smart contracts.
-  - Integrate blockchain functionalities into applications.
-  - Ensure the security and efficiency of blockchain interactions.
 
 ### 3. **DevOps Developer**
 
