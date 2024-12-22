@@ -83,3 +83,13 @@
 ### **Certificate Management**
 
 - **Let’s Encrypt (via Traefik):** Provides free SSL/TLS certificates for secure communication. Traefik automates the renewal and deployment of these certificates across services.
+
+### **Diagrams**
+
+- **[Pipeline](https://www.canva.com/design/DAGY6IJYK8s/nhincDTcJW88-1kWshHJvQ/edit?utm_content=DAGY6IJYK8s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+
+- **[Infrastructure](https://www.canva.com/design/DAGYVGrdGWU/9pD1LdOSnNCuBnW64zptig/edit?utm_content=DAGYVGrdGWU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+
+- **[Load Balancer](https://www.canva.com/design/DAGaCzoek0I/AmtssFzy26DtFLw4gyPhYQ/edit?utm_content=DAGaCzoek0I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+
+- **[Notifications System](https://www.canva.com/design/DAGaC9iAfuo/TzJoR2fiD6Qsht2vq22cQw/edit?utm_content=DAGaC9iAfuo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
