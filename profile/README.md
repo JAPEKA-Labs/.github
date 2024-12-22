@@ -60,7 +60,6 @@
 | CNAME | jenkins    | japeka.dev | Proxied      |
 | CNAME | portainer  | japeka.dev | Proxied      |
 | CNAME | grafana    | japeka.dev | Proxied      |
-| CNAME | prometheus | japeka.dev | Proxied      |
 | CNAME | traefik    | japeka.dev | Proxied      |
 | CNAME | semaphore  | japeka.dev | Proxied      |
 
