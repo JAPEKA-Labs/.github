@@ -65,7 +65,6 @@
 ### **Monitoring and Observability**
 
 - **[Grafana](https://grafana.wdsui.com/):** Visualizes data with dashboards, helping monitor system performance and analyze metrics.
-- **[Prometheus](https://prometheus.wdsui.com/):** Collects and analyzes time-series data, providing alerting and monitoring for your applications and infrastructure.
 - **[Traefik](https://traefik.wdsui.com/):** Analyzes HTTP and HTTPS routing, reverse proxying, load balancing for services.
 
 ### **Continuous Integration and Deployment (CI/CD)**
