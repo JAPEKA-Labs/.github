@@ -1,38 +1,85 @@
-# JAPEKA
+# DNS Records
 
+## Nami
 
-## Positions
+| Type  | Name       | Content        | Proxy Status |
+| ----- | ---------- | -------------- | ------------ |
+| A     | namifi.app | 213.136.84.118 | Proxied      |
+| CNAME | www        | namifi.app     | Proxied      |
+| CNAME | app        | namifi.app     | Proxied      |
+| CNAME | app_stage  | namifi.app     | Proxied      |
+| CNAME | app_test   | namifi.app     | Proxied      |
 
-### 1. **Full Stack Developer**
+- [Nami landing page](https://nami.wdsui.com/)
 
-  - Develop and maintain the front-end and back-end of applications.
-  - Collaborate with designers to ensure user-friendly and responsive interfaces.
-  - Write clean, maintainable, and well-documented code.
+### **Environments**
 
+- **[Namifi Application - Testing Environment](https://app_test.wdsui.com/):**  
+  This environment is linked to the `testing` branch. Developers merge their changes into this branch, triggering an automated Jenkins job that builds, tests, and deploys the application to the testing environment. This stage is used to validate new features and fixes.
 
-### 2. **Blockchain Developer**
+- **[Namifi Application - Staging Environment](https://app_stage.wdsui.com/):**  
+  After successful testing, changes are merged into the `stage` branch. Jenkins automatically pulls updates, runs tests, builds the application, and deploys it to the staging environment. This stage serves as a pre-production environment for final validation.
 
-  - Design and develop smart contracts.
+- **[Namifi Application - Production Environment](https://app.wdsui.com/):**  
+  Once changes are validated in staging, they are merged into the `main` branch. Jenkins pulls updates, builds, tests the application, and deploys it to the production environment. This environment hosts the live version of the application used by end-users.
 
-### 3. **DevOps Developer**
+### **Workflow**
 
-  - Automate CI/CD pipelines to streamline development and deployment.
-  - Monitor and manage infrastructure to ensure system reliability.
-  - Optimize performance and scalability of servers and databases.
-  - Implement and maintain containerization (Docker).
-  - Manage cloud services and ensure data security.
+1. **Development:**  
+   Developers create and merge changes into the `testing` branch.
+2. **Testing:**  
+   Jenkins triggers a job upon detecting updates in the `testing` branch:
+   - Pulls the latest changes.
+   - Runs automated tests.
+   - Builds and deploys the application to the testing environment.
+3. **Staging:**  
+   Once testing is complete, changes are merged into the `stage` branch. Jenkins:
+   - Pulls updates from the `stage` branch.
+   - Runs automated tests.
+   - Builds and deploys the application to the staging environment.
+4. **Production:**  
+   After staging validation, changes are merged into the `main` branch. Jenkins:
+   - Pulls the latest updates.
+   - Runs automated tests.
+   - Builds the application.
+   - Deploys it to the production environment, making it available to end-users.
 
+## JAPEKA
 
-### 4. **QA Engineer**
+| Type  | Name       | Content        | Proxy Status |
+| ----- | ---------- | -------------- | ------------ |
+| A     | japeka.dev | 213.136.84.118 | Proxied      |
+| CNAME | www        | japeka.dev     | Proxied      |
 
-  - Develop and execute test plans and cases.
-  - Perform unit, integration, and end-to-end tests of applications.
-  - Identify and document bugs, and verify fixes.
+- [JAPEKA landing page](https://japeka.wdsui.com/)
 
+## Tools
 
-### 5. **Administrator**
+| Type  | Name       | Content    | Proxy Status |
+| ----- | ---------- | ---------- | ------------ |
+| CNAME | jenkins    | japeka.dev | Proxied      |
+| CNAME | portainer  | japeka.dev | Proxied      |
+| CNAME | grafana    | japeka.dev | Proxied      |
+| CNAME | prometheus | japeka.dev | Proxied      |
+| CNAME | traefik    | japeka.dev | Proxied      |
+| CNAME | semaphore  | japeka.dev | Proxied      |
 
-  - Ensure smooth transitions during merges between branches (e.g., from the `test` branch to `stage` and from `stage` to `main`).
-  - Conduct **manual testing** in the **Staging Environment** to ensure functionality and stability before deployment to production.
-  - In the **Production Environment**, use tools like **Grafana** and **Prometheus** for real-time monitoring of application performance and system health.
-  - Provide feedback to developers about issues or changes required in the testing or staging phases.
+### **Monitoring and Observability**
+
+- **[Grafana](https://grafana.wdsui.com/):** Visualizes data with dashboards, helping monitor system performance and analyze metrics.
+- **[Prometheus](https://prometheus.wdsui.com/):** Collects and analyzes time-series data, providing alerting and monitoring for your applications and infrastructure.
+- **[Traefik](https://traefik.wdsui.com/):** Analyzes HTTP and HTTPS routing, reverse proxying, load balancing for services.
+
+### **Continuous Integration and Deployment (CI/CD)**
+
+- **[Jenkins](https://jenkins.wdsui.com/):** Automates build, test, and deployment pipelines, ensuring reliable and efficient software delivery.
+
+### **Infrastructure Management**
+
+- **[Portainer](https://portainer.wdsui.com/):** Simplifies managing and monitoring Docker containers and environments with an easy-to-use interface.
+
+- **[Semaphore](https://semaphore.wdsui.com/):** Streamlines the execution of Ansible tasks with a user-friendly interface, making it easier to manage infrastructure automation and orchestrate deployments effectively.
+
+### **Certificate Management**
+
+- **Let’s Encrypt (via Traefik):** Provides free SSL/TLS certificates for secure communication. Traefik automates the renewal and deployment of these certificates across services.
