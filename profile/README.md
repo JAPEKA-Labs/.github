@@ -61,7 +61,6 @@
 | CNAME | portainer  | japeka.dev | Proxied      |
 | CNAME | grafana    | japeka.dev | Proxied      |
 | CNAME | traefik    | japeka.dev | Proxied      |
-| CNAME | semaphore  | japeka.dev | Proxied      |
 
 ### **Monitoring and Observability**
 
@@ -77,7 +76,6 @@
 
 - **[Portainer](https://portainer.wdsui.com/):** Simplifies managing and monitoring Docker containers and environments with an easy-to-use interface.
 
-- **[Semaphore](https://semaphore.wdsui.com/):** Streamlines the execution of Ansible tasks with a user-friendly interface, making it easier to manage infrastructure automation and orchestrate deployments effectively.
 
 ### **Certificate Management**
 
