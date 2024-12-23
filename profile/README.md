@@ -82,7 +82,7 @@
 
 ### **Diagrams**
 
-- **[Pipeline](https://www.canva.com/design/DAGY6IJYK8s/nhincDTcJW88-1kWshHJvQ/edit?utm_content=DAGY6IJYK8s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+- **[Pipelines](https://www.canva.com/design/DAGY6IJYK8s/nhincDTcJW88-1kWshHJvQ/edit?utm_content=DAGY6IJYK8s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
 
 - **[Infrastructure](https://www.canva.com/design/DAGYVGrdGWU/9pD1LdOSnNCuBnW64zptig/edit?utm_content=DAGYVGrdGWU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
 
