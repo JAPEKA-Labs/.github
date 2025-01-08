@@ -55,26 +55,26 @@
 
 ## Tools
 
-| Type  | Name       | Content    | Proxy Status |
-| ----- | ---------- | ---------- | ------------ |
-| CNAME | jenkins    | japeka.dev | Proxied      |
-| CNAME | portainer  | japeka.dev | Proxied      |
-| CNAME | grafana    | japeka.dev | Proxied      |
-| CNAME | traefik    | japeka.dev | Proxied      |
+| Type  | Name            | Content         | Proxy Status |
+| ----- | --------------- | --------------- | ------------ |
+| A     | japeka-labs.com | 213.136.84.118  | Proxied      |
+| CNAME | jenkins         | japeka-labs.com | Proxied      |
+| CNAME | portainer       | japeka-labs.com | Proxied      |
+| CNAME | grafana         | japeka-labs.com | Proxied      |
+| CNAME | traefik         | japeka-labs.com | Proxied      |
 
 ### **Monitoring and Observability**
 
-- **[Grafana](https://grafana.wdsui.com/):** Visualizes data with dashboards, helping monitor system performance and analyze metrics.
-- **[Traefik](https://traefik.wdsui.com/):** Analyzes HTTP and HTTPS routing, reverse proxying, load balancing for services.
+- **[Grafana](https://grafana.japeka-labs.com/):** Visualizes data with dashboards, helping monitor system performance and analyze metrics.
+- **[Traefik](https://traefik.japeka-labs.com/):** Analyzes HTTP and HTTPS routing, reverse proxying, load balancing for services.
 
 ### **Continuous Integration and Deployment (CI/CD)**
 
-- **[Jenkins](https://jenkins.wdsui.com/):** Automates build, test, and deployment pipelines, ensuring reliable and efficient software delivery.
+- **[Jenkins](https://jenkins.japeka-labs.com/):** Automates build, test, and deployment pipelines, ensuring reliable and efficient software delivery.
 
 ### **Infrastructure Management**
 
-- **[Portainer](https://portainer.wdsui.com/):** Simplifies managing and monitoring Docker containers and environments with an easy-to-use interface.
-
+- **[Portainer](https://portainer.japeka-labs.com/):** Simplifies managing and monitoring Docker containers and environments with an easy-to-use interface.
 
 ### **Certificate Management**
 
@@ -91,5 +91,3 @@
 - **[Notifications System](https://www.canva.com/design/DAGaC9iAfuo/TzJoR2fiD6Qsht2vq22cQw/edit?utm_content=DAGaC9iAfuo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
 - **[Backups System](https://www.canva.com/design/DAGaHwo_5Cw/x7uwfIkXrRxmzYtf45jXjw/edit?utm_content=DAGaHwo_5Cw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
 - **[Databases System](https://www.canva.com/design/DAGaINqQ19Y/5feJg6To2St3rhDQ3Z1jbA/edit?utm_content=DAGaINqQ19Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
-
-
