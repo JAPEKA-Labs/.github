@@ -5,22 +5,22 @@
 | Type  | Name       | Content        | Proxy Status |
 | ----- | ---------- | -------------- | ------------ |
 | A     | namifi.app | 213.136.84.118 | Proxied      |
-| CNAME | www        | namifi.app     | Proxied      |
-| CNAME | app        | namifi.app     | Proxied      |
-| CNAME | app_stage  | namifi.app     | Proxied      |
-| CNAME | app_test   | namifi.app     | Proxied      |
+| A     | www        | namifi.app     | Proxied      |
+| A     | app        | namifi.app     | Proxied      |
+| A     | app_stage  | namifi.app     | Proxied      |
+| A     | app_test   | namifi.app     | Proxied      |
 
 - [Nami landing page](https://nami.wdsui.com/)
 
 ### **Environments**
 
-- **[Namifi Application - Testing Environment](https://app_test.wdsui.com/):**  
+- **[Namifi Application - Testing Environment](https://app_test.namifi.app/):**  
   This environment is linked to the `testing` branch. Developers merge their changes into this branch, triggering an automated Jenkins job that builds, tests, and deploys the application to the testing environment. This stage is used to validate new features and fixes.
 
-- **[Namifi Application - Staging Environment](https://app_stage.wdsui.com/):**  
+- **[Namifi Application - Staging Environment](https://app_stage.namifi.app/):**  
   After successful testing, changes are merged into the `stage` branch. Jenkins automatically pulls updates, runs tests, builds the application, and deploys it to the staging environment. This stage serves as a pre-production environment for final validation.
 
-- **[Namifi Application - Production Environment](https://app.wdsui.com/):**  
+- **[Namifi Application - Production Environment](https://app.namifi.app/):**  
   Once changes are validated in staging, they are merged into the `main` branch. Jenkins pulls updates, builds, tests the application, and deploys it to the production environment. This environment hosts the live version of the application used by end-users.
 
 ### **Workflow**
@@ -51,7 +51,7 @@
 | A     | japeka.dev | 213.136.84.118 | Proxied      |
 | CNAME | www        | japeka.dev     | Proxied      |
 
-- [JAPEKA landing page](https://japeka.wdsui.com/)
+- [JAPEKA landing page](https://japeka.dev/)
 
 ## Tools
 
@@ -62,12 +62,13 @@
 | CNAME | portainer       | japeka-labs.com | Proxied      |
 | CNAME | grafana         | japeka-labs.com | Proxied      |
 | CNAME | traefik         | japeka-labs.com | Proxied      |
+| CNAME | pgadmin         | japeka-labs.com | Proxied      |
 
 ### **Monitoring and Observability**
 
 - **[Grafana](https://grafana.japeka-labs.com/):** Visualizes data with dashboards, helping monitor system performance and analyze metrics.
 - **[Traefik](https://traefik.japeka-labs.com/):** Analyzes HTTP and HTTPS routing, reverse proxying, load balancing for services.
-
+- **[pgAdmin](https://pgadmin.japeka-labs.com/):** A web-based Graphical User Interface (GUI) management application used to communicate with Postgres
 ### **Continuous Integration and Deployment (CI/CD)**
 
 - **[Jenkins](https://jenkins.japeka-labs.com/):** Automates build, test, and deployment pipelines, ensuring reliable and efficient software delivery.
