@@ -10,7 +10,7 @@
 | A     | app_stage  | namifi.app     | Proxied      |
 | A     | app_test   | namifi.app     | Proxied      |
 
-- [Nami landing page](https://nami.wdsui.com/)
+- [Nami landing page](https://namifi.app/)
 
 ### **Environments**
 
