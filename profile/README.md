@@ -5,10 +5,10 @@
 | Type  | Name       | Content        | Proxy Status |
 | ----- | ---------- | -------------- | ------------ |
 | A     | namifi.app | 213.136.84.118 | Proxied      |
-| A     | www        | namifi.app     | Proxied      |
-| A     | app        | namifi.app     | Proxied      |
-| A     | app_stage  | namifi.app     | Proxied      |
-| A     | app_test   | namifi.app     | Proxied      |
+| A     | www        | 213.136.84.118 | Proxied      |
+| A     | app        | 213.136.84.118 | Proxied      |
+| A     | app_stage  | 213.136.84.118 | Proxied      |
+| A     | app_test   | 213.136.84.118 | Proxied      |
 
 - [Nami landing page](https://namifi.app/)
 
